@@ -1,0 +1,217 @@
+/* GENERAL */
+
+h1 {
+  font-size: 3.5rem;
+}
+p {
+  margin: 25px
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size:80px;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size:30px;
+  text-align: center;
+}
+
+#my-philosphy {
+  font-family: 'Poiret One', cursive;
+  font-size:25px;
+  text-align: center;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+#hello-there {
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+}
+
+main > section{
+  background-color:rgb(255, 255, 255);
+  padding:1em;
+}
+
+html {
+  background-color: rgb(242, 232, 250);
+}
+
+  /* Images */
+
+  .object-fit img {
+    width:100%;
+  }
+
+  @supports (object-fit: cover) {
+    .object-fit img  {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+/* Header */
+
+header, .flex-row, footer {
+  max-width: 1280px;
+  margin: 50px auto;
+}
+
+.logo {
+  float: left;
+  flex-wrap:wrap;
+  border-radius: 25%;
+  shape-outside:margin-box;
+  max-width: 100%;
+}
+/* FLEX SECTIONS */
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 25px;
+  background: rgb(255, 255, 255);
+}
+
+.companyoverview, .navigation, #content-resources, footer {
+  max-width: 1280px;
+  margin: 50px auto;
+}
+
+/* Medium to Larger Screens */
+@media screen and (min-width: 800px) {
+  
+  .flex-row { flex-direction: row; }
+  
+
+  .flex__two-thirds { flex: 3 1 200px; }
+  
+
+  .textbox {
+    font-size: 1.25em;
+    min-height: 100px;
+  }
+}
+
+/* Skip to Link CSS */
+
+.skip-to-links {
+  list-style-type:none;
+  color:black;
+}
+
+/* Navigation CSS */
+
+.navigation ul {
+  list-style-type:none;
+  padding: 20px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.navigation ul li {
+  display:inline;
+  font-size: 1.5em;
+  line-height: 55px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color:black;
+  padding: 20px 40px;
+}
+
+.navigation li a:hover {
+  background-color: rgb(242, 232, 250);
+}
+
+.companyoverview div h2 {
+  text-align: center;
+}
+
+/* Footer CSS */
+
+.inner-footer {
+  margin:0;
+  padding:0;
+  background-color:rgb(255, 255, 255);
+}
+
+.social-links ul {
+  display:flex;
+  padding:10px;
+  width:200px;
+
+  margin: auto;
+}
+
+.social-items {
+  list-style:none;
+}
+
+.social-items a{
+  padding:10px 20px;
+  font-size: 30px;
+  color: rgb(97, 96, 96);
+}
+
+.quick-links {
+  display:flex;
+  width:300px;
+  height:30px;
+  padding-bottom:15px;
+  margin:auto;
+}
+
+.quick-links ul{
+  display:flex;
+}
+
+.quick-items{
+  list-style:none;
+}
+
+.quick-items a{
+  text-decoration:none;
+  padding: 0px 10px;
+  font-size: 18px;
+  color:rgb(97, 96, 96);
+}
+
+  /* Navigation CSS */
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  li {
+    display:inline;
+    font-size: 1.5em;
+  }
+  
+  li a {
+    text-decoration: none;
+    color:black;
+    padding: 20px 40px;
+  }
+  
+  li a:hover {
+    background-color: rgb(242, 232, 250);
+  }
+  
+  nav {
+    padding-bottom:50px;
+  }
