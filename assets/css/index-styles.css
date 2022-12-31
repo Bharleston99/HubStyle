@@ -215,3 +215,8 @@ header, .flex-row, footer {
   nav {
     padding-bottom:50px;
   }
+
+  .main-links {
+    color: darkblue;
+    font-weight: bold;
+  }
