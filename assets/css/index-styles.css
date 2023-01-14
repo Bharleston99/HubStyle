@@ -138,37 +138,6 @@ header, .flex-row, footer {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 20px;
-  margin: 0;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-li {
-  display:inline;
-  font-size: 1.5em;
-}
-
-li a {
-  text-decoration: none;
-  color:black;
-  padding: 20px 40px;
-}
-
-li a:hover {
-  background-color: rgb(242, 232, 250);
-}
-
-nav {
-  padding-bottom:50px;
-}
-
-.form {
-  margin:auto;
-}
-
 /* Footer CSS */
 
 .inner-footer {
