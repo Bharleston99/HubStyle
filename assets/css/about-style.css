@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    padding:5%;
+    padding-left:5%;
+    padding-right:5%;
     margin: 20px;
     text-align: center;
     max-width: 1280px;
@@ -32,9 +33,22 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
+
+.logo {
+  float: left;
+  flex-wrap:wrap;
+  border-radius: 25%;
+  shape-outside:margin-box;
+  max-width: 100%;
+}
+.companyoverview, .navigation, #content-resources, footer {
+  max-width: 1280px;
+  margin: 50px auto;
+}
+
 /* Image */
 
-  img {
+  .notion-logo {
     float: left;
     flex-wrap:wrap;
     border-radius: 22%;
@@ -44,32 +58,64 @@ p {
   }
 
   /* Navigation CSS */
-ul {
-  list-style-type: none;
-  padding: 20px;
-  margin: 0;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-}
+  .navigation ul {
+    list-style-type:none;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .navigation ul li {
+    display:inline;
+    font-size: 1.5em;
+    line-height: 55px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color:black;
+    padding: 20px 40px;
+  }
+  
+  .navigation li a:hover {
+    background-color: rgb(242, 232, 250);
+  }
+  
+  .companyoverview div h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  li {
+    display:inline;
+    font-size: 1.5em;
+  }
+  
+  li a {
+    text-decoration: none;
+    color:black;
+    padding: 20px 40px;
+  }
+  
+  li a:hover {
+    background-color: rgb(242, 232, 250);
+  }
+  
+  nav {
+    padding-bottom:50px;
+  }
 
-li {
-  display:inline;
-  font-size: 1.5em;
-}
-
-li a {
-  text-decoration: none;
-  color:black;
-  padding: 20px 40px;
-}
-
-li a:hover {
-  background-color: rgb(242, 232, 250);
-}
-
-nav {
-  padding-bottom:50px;
-}
+  .form {
+    margin:auto;
+  }
 
 /* Footer CSS */
 

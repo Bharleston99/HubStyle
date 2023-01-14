@@ -107,3 +107,7 @@ header, .flex-row, footer {
     margin:auto;
   }
 
+.navigation {
+    max-width: 1280px;
+    margin: 50px auto;
+  }
