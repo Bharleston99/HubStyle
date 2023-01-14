@@ -48,7 +48,6 @@ header, .flex-row, footer {
   max-width: 100%;
 }
   /* Navigation CSS */
-
   .navigation ul {
     list-style-type:none;
     padding: 20px;
@@ -76,7 +75,7 @@ header, .flex-row, footer {
   .companyoverview div h2 {
     text-align: center;
   }
-
+  
   ul {
     list-style-type: none;
     padding: 20px;
@@ -107,3 +106,4 @@ header, .flex-row, footer {
   .form {
     margin:auto;
   }
+
