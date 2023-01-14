@@ -28,8 +28,7 @@ h2 {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-}
+  font-size: 20px;}
 
 #hello-there {
   font-family: 'Poiret One', cursive;
@@ -188,3 +187,6 @@ header, .flex-row, footer {
   color:rgb(97, 96, 96);
 }
 
+.video {
+  margin:0
+}
