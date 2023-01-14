@@ -51,7 +51,7 @@ p {
   .notion-logo {
     float: left;
     flex-wrap:wrap;
-    border-radius: 22%;
+    border-radius: 17%;
     padding-right:40px;
     shape-outside:margin-box;
     max-width: 100%;
