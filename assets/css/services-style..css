@@ -13,6 +13,12 @@ h1 {
   font-size:80px;
 }
 
+#company-title a {
+  color:black;
+  text-decoration: none;
+  list-style: none;
+}
+
 h2 {
   font-family: 'Poiret One', cursive;
   font-size:30px;
