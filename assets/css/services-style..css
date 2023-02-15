@@ -1,8 +1,9 @@
 /* GENERAL */
 #google-form {
   text-align: center;
-  max-width: 640;
-  max-height: 605;
+  max-width: 640px;
+  max-height: 605px;
+  margin: 50px auto;
 }
 
 h1 {
